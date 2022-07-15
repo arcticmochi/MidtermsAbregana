@@ -51,7 +51,13 @@ public class MainActivity extends AppCompatActivity {
 
     // // TODO Milestone 3: Calculate bill.
     private void btnCalculateListenerMethod() {
+        Button btnCalculate = findViewById(R.id.btnCalculate);
+        btnCalculate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
+            }
+        });
     }
 
     /**
